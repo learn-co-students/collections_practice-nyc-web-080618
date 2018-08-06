@@ -61,7 +61,7 @@ end
 
 def add_s(entered_array)
   new_array = []
-  entered_array.each_with_index do |element, index|
+  entered_array.each_with_index.collect do |element, index|
     if index == 1
       new_array.push(element)
     else
