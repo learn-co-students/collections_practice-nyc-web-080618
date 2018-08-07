@@ -24,6 +24,7 @@ def swap_elements(array)
   array
 end
 
+
 def reverse_array(array)
   array.reverse
 end
@@ -40,6 +41,7 @@ def kesha_maker(array)
   end
   arr
 end
+
 
 def find_a(array)
    array.select do |word|
